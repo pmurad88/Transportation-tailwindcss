@@ -22,6 +22,7 @@ module.exports = {
                 'border': "#212429",
                 'hover': "#e0581e",
                 'gray':{
+                    10: "#d9d7d7",
                     20: "#e1dddd",
                     50: "#f9f9f9",
                     100: "#7B8693",

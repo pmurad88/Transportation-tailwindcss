@@ -4,8 +4,7 @@ $(document).ready(function(){
     $(".menutrigger").on('click', function(){
     $(this).toggleClass("active");
     $(".mobile-menu").stop(true,false,true).slideToggle();
-     
-
+    $('body').toggleClass('overflow-hidden');
     });
 
     $('select').niceSelect();
