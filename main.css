@@ -45,7 +45,25 @@
     .btn-success {
         @apply inline-block w-full text-center uppercase bg-primary py-4 rounded-md text-white;
     }
-    
+    select{
+        @apply w-full px-5 py-4 border-red-50  placeholder:text-gray-100 bg-white shadow-sm ;
+    }
+    .option{
+        @apply placeholder:text-gray-100
+    }
+    .text-list input{
+        @apply focus:outline-none focus:border-none focus:shadow-transparent w-full px-5 py-4 border-red-50 placeholder:text-gray-12000 bg-white;  
+    }
+    .text-list input[type],
+    .text-list input[type]:focus{
+        box-shadow: none !important;
+        border: 0;
+    }
+    .banner-i input[type],
+    .banner-i input[type]:focus{
+        box-shadow: none !important;
+        border: 0;
+    }
     
     /* css style */
     .info-caption p {
@@ -90,7 +108,7 @@
         @apply py-2 border-b-2 border-gray-10;
     }
      
-    }
+}
     .menutrigger span {
         @apply h-[2px] w-[30px] bg-white block;
     }
@@ -121,26 +139,8 @@
         @apply justify-end w-full absolute flex;
     }
 
+       /*  */
 
-select{
-    @apply w-full px-5 py-4 border-red-50  placeholder:text-gray-100 bg-white shadow-sm ;
-}
-.option{
-    @apply placeholder:text-gray-100
-}
-.text-list input{
-    @apply focus:outline-none focus:border-none focus:shadow-transparent w-full px-5 py-4 border-red-50 placeholder:text-gray-12000 bg-white;  
-}
-.text-list input[type],
-.text-list input[type]:focus{
-    box-shadow: none !important;
-    border: 0;
-}
-.banner-i input[type],
-.banner-i input[type]:focus{
-    box-shadow: none !important;
-    border: 0;
-}
 .nice-select {
 	line-height: 53px;
     @apply border-gray-50 h-14;
@@ -173,6 +173,9 @@ select{
 .f-list li  {
     @apply font-light text-gray-900 py-2;
 }
+
+      /*  */
+
 .go-top {
     @apply fixed bg-primary z-10 bottom-10 w-10 h-10 right-5 flex items-center justify-center text-white rounded-full;
 }
